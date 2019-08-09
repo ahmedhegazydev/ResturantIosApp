@@ -12,6 +12,7 @@
 		00790F5022FA15180097076B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00790F4E22FA15180097076B /* Main.storyboard */; };
 		00790F5222FA15180097076B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00790F5122FA15180097076B /* Assets.xcassets */; };
 		00790F5522FA15180097076B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00790F5322FA15180097076B /* LaunchScreen.storyboard */; };
+		00790F5D22FA16300097076B /* location-permissionjpg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 00790F5C22FA162F0097076B /* location-permissionjpg.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		00790F5122FA15180097076B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		00790F5422FA15180097076B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		00790F5622FA15180097076B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00790F5C22FA162F0097076B /* location-permissionjpg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "location-permissionjpg.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 				00790F4C22FA15180097076B /* ViewController.swift */,
 				00790F4E22FA15180097076B /* Main.storyboard */,
 				00790F5122FA15180097076B /* Assets.xcassets */,
+				00790F5C22FA162F0097076B /* location-permissionjpg.jpg */,
 				00790F5322FA15180097076B /* LaunchScreen.storyboard */,
 				00790F5622FA15180097076B /* Info.plist */,
 			);
@@ -124,6 +127,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				00790F5522FA15180097076B /* LaunchScreen.storyboard in Resources */,
+				00790F5D22FA16300097076B /* location-permissionjpg.jpg in Resources */,
 				00790F5222FA15180097076B /* Assets.xcassets in Resources */,
 				00790F5022FA15180097076B /* Main.storyboard in Resources */,
 			);

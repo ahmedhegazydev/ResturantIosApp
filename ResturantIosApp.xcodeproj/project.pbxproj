@@ -13,6 +13,9 @@
 		00790F5222FA15180097076B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00790F5122FA15180097076B /* Assets.xcassets */; };
 		00790F5522FA15180097076B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00790F5322FA15180097076B /* LaunchScreen.storyboard */; };
 		00790F5D22FA16300097076B /* location-permissionjpg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 00790F5C22FA162F0097076B /* location-permissionjpg.jpg */; };
+		00A94E8B22FDFD76002EC139 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A94E8A22FDFD76002EC139 /* BaseView.swift */; };
+		00A94E8F22FE01D7002EC139 /* DetailsFoodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A94E8E22FE01D7002EC139 /* DetailsFoodView.swift */; };
+		00A94E9122FE0F0F002EC139 /* DetailsFoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A94E9022FE0F0F002EC139 /* DetailsFoodViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		00790F5422FA15180097076B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		00790F5622FA15180097076B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00790F5C22FA162F0097076B /* location-permissionjpg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "location-permissionjpg.jpg"; sourceTree = "<group>"; };
+		00A94E8A22FDFD76002EC139 /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		00A94E8E22FE01D7002EC139 /* DetailsFoodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsFoodView.swift; sourceTree = "<group>"; };
+		00A94E9022FE0F0F002EC139 /* DetailsFoodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsFoodViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +62,8 @@
 		00790F4922FA15180097076B /* ResturantIosApp */ = {
 			isa = PBXGroup;
 			children = (
+				00A94E8C22FE0188002EC139 /* Details */,
+				00A94E8922FDFD26002EC139 /* Screen */,
 				00790F4A22FA15180097076B /* AppDelegate.swift */,
 				00790F4C22FA15180097076B /* ViewController.swift */,
 				00790F4E22FA15180097076B /* Main.storyboard */,
@@ -65,6 +73,31 @@
 				00790F5622FA15180097076B /* Info.plist */,
 			);
 			path = ResturantIosApp;
+			sourceTree = "<group>";
+		};
+		00A94E8922FDFD26002EC139 /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				00A94E8A22FDFD76002EC139 /* BaseView.swift */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
+		00A94E8C22FE0188002EC139 /* Details */ = {
+			isa = PBXGroup;
+			children = (
+				00A94E8D22FE0191002EC139 /* Views */,
+				00A94E9022FE0F0F002EC139 /* DetailsFoodViewController.swift */,
+			);
+			path = Details;
+			sourceTree = "<group>";
+		};
+		00A94E8D22FE0191002EC139 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				00A94E8E22FE01D7002EC139 /* DetailsFoodView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +173,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00A94E8B22FDFD76002EC139 /* BaseView.swift in Sources */,
+				00A94E8F22FE01D7002EC139 /* DetailsFoodView.swift in Sources */,
+				00A94E9122FE0F0F002EC139 /* DetailsFoodViewController.swift in Sources */,
 				00790F4D22FA15180097076B /* ViewController.swift in Sources */,
 				00790F4B22FA15180097076B /* AppDelegate.swift in Sources */,
 			);

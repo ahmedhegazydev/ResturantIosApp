@@ -14,8 +14,11 @@ import Foundation
     @IBOutlet weak var btnAllow : UIButton!
     @IBOutlet weak var btnDeny : UIButton!
     
+    
+    var didTabAllow : (() -> Void)?
+    
     @IBAction func allowAction(_ sender : UIButton){
-        
+        didTabAllow?()
     }
     
     @IBAction func denyAction(_ sender : UIButton){

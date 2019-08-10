@@ -11,7 +11,17 @@ import Foundation
 
 @IBDesignable class LocationView: BaseView {
 
-   
+    @IBOutlet weak var btnAllow : UIButton!
+    @IBOutlet weak var btnDeny : UIButton!
+    
+    @IBAction func allowAction(_ sender : UIButton){
+        
+    }
+    
+    @IBAction func denyAction(_ sender : UIButton){
+        
+    }
+    
     
     
 }

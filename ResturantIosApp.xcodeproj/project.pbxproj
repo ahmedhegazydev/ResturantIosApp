@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0035E15722FEF17C00B70CB6 /* LocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0035E15622FEF17C00B70CB6 /* LocationViewController.swift */; };
 		00790F4B22FA15180097076B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00790F4A22FA15180097076B /* AppDelegate.swift */; };
 		00790F4D22FA15180097076B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00790F4C22FA15180097076B /* ViewController.swift */; };
 		00790F5022FA15180097076B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00790F4E22FA15180097076B /* Main.storyboard */; };
@@ -19,9 +20,11 @@
 		00A94E9622FE190B002EC139 /* ResturantsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A94E9522FE190B002EC139 /* ResturantsTableViewController.swift */; };
 		00A94E9922FE2166002EC139 /* ResturantTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A94E9822FE2166002EC139 /* ResturantTableViewCell.swift */; };
 		00A94E9D22FE243C002EC139 /* LocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A94E9C22FE243C002EC139 /* LocationView.swift */; };
+		00F6B82622FF021000279A82 /* LocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F6B82522FF021000279A82 /* LocationService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0035E15622FEF17C00B70CB6 /* LocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationViewController.swift; sourceTree = "<group>"; };
 		00790F4722FA15180097076B /* ResturantIosApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ResturantIosApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		00790F4A22FA15180097076B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		00790F4C22FA15180097076B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,6 +39,7 @@
 		00A94E9522FE190B002EC139 /* ResturantsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResturantsTableViewController.swift; sourceTree = "<group>"; };
 		00A94E9822FE2166002EC139 /* ResturantTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResturantTableViewCell.swift; sourceTree = "<group>"; };
 		00A94E9C22FE243C002EC139 /* LocationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationView.swift; sourceTree = "<group>"; };
+		00F6B82522FF021000279A82 /* LocationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +72,7 @@
 		00790F4922FA15180097076B /* ResturantIosApp */ = {
 			isa = PBXGroup;
 			children = (
+				00F6B82422FF01F100279A82 /* Services */,
 				00A94E8922FDFD26002EC139 /* Screen */,
 				00790F4A22FA15180097076B /* AppDelegate.swift */,
 				00790F4C22FA15180097076B /* ViewController.swift */,
@@ -129,6 +134,7 @@
 			isa = PBXGroup;
 			children = (
 				00A94E9B22FE2409002EC139 /* Views */,
+				0035E15622FEF17C00B70CB6 /* LocationViewController.swift */,
 			);
 			path = Location;
 			sourceTree = "<group>";
@@ -139,6 +145,14 @@
 				00A94E9C22FE243C002EC139 /* LocationView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		00F6B82422FF01F100279A82 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				00F6B82522FF021000279A82 /* LocationService.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -216,10 +230,12 @@
 			files = (
 				00A94E8B22FDFD76002EC139 /* BaseView.swift in Sources */,
 				00A94E9D22FE243C002EC139 /* LocationView.swift in Sources */,
+				00F6B82622FF021000279A82 /* LocationService.swift in Sources */,
 				00A94E8F22FE01D7002EC139 /* DetailsFoodView.swift in Sources */,
 				00A94E9622FE190B002EC139 /* ResturantsTableViewController.swift in Sources */,
 				00A94E9122FE0F0F002EC139 /* DetailsFoodViewController.swift in Sources */,
 				00790F4D22FA15180097076B /* ViewController.swift in Sources */,
+				0035E15722FEF17C00B70CB6 /* LocationViewController.swift in Sources */,
 				00A94E9922FE2166002EC139 /* ResturantTableViewCell.swift in Sources */,
 				00790F4B22FA15180097076B /* AppDelegate.swift in Sources */,
 			);

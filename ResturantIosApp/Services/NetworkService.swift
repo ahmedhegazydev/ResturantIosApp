@@ -12,6 +12,20 @@ import Moya
 enum YelpService {
     enum BusinessProvider : TargetType {
         
+        
+        var baseURL: URL
+        
+        var path: String
+        
+        var method: Method
+        
+        var sampleData: Data
+        
+        var task: Task
+        
+        var headers: [String : String]?
+        
+        
     }
 }
 

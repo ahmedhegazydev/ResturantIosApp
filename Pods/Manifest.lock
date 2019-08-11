@@ -1,0 +1,68 @@
+PODS:
+  - Alamofire (4.8.2)
+  - AlamofireImage (3.5.2):
+    - Alamofire (~> 4.8)
+  - AMShimmer (1.0.6)
+  - AnimatedMaskLabel (1.0.1)
+  - LinearProgressBar (1.0.1)
+  - MBCircularProgressBar (0.3.5)
+  - MKMagneticProgress (1.4)
+  - moa (11.0.1)
+  - Moya (10.0.1):
+    - Moya/Core (= 10.0.1)
+  - Moya/Core (10.0.1):
+    - Alamofire (~> 4.1)
+    - Result (~> 3.0)
+  - Result (3.2.4)
+  - SVProgressHUD (2.2.5)
+  - SwiftyBeaver (1.7.0)
+  - SwiftyJSON (5.0.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - AlamofireImage (~> 3.5)
+  - AMShimmer
+  - AnimatedMaskLabel
+  - LinearProgressBar
+  - MBCircularProgressBar
+  - MKMagneticProgress
+  - moa (~> 11.0)
+  - Moya (= 10.0.1)
+  - SVProgressHUD
+  - SwiftyBeaver
+  - SwiftyJSON
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - AlamofireImage
+    - AMShimmer
+    - AnimatedMaskLabel
+    - LinearProgressBar
+    - MBCircularProgressBar
+    - MKMagneticProgress
+    - moa
+    - Moya
+    - Result
+    - SVProgressHUD
+    - SwiftyBeaver
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
+  AlamofireImage: 63cfe3baf1370be6c498149687cf6db3e3b00999
+  AMShimmer: 681eeaaedf9fc4e390e95e9dd6fe59df947cfee0
+  AnimatedMaskLabel: 995f1cdcae80700be58126d70e0fe05619d86b77
+  LinearProgressBar: f6a74dbabed229dbb1a7978089e2e4317a3a0ee0
+  MBCircularProgressBar: 0b795b722a5eb5b0923822f90474e2576a1a7855
+  MKMagneticProgress: 006b8c763d62986661bcde03794a3dcf56cd084a
+  moa: a26c4e97c7ac9345e87c4bb999e85116c8ec0310
+  Moya: 9e621707ff754eeb51ff3ec51a3d54e517c0733a
+  Result: d2d07204ce72856f1fd9130bbe42c35a7b0fea10
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  SwiftyBeaver: 4cc0080d2e23f980652e28978db11a5c9da39165
+  SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
+
+PODFILE CHECKSUM: 99a0d021bf5c73f623845ecea6416a7c6c387775
+
+COCOAPODS: 1.7.5

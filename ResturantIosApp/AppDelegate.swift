@@ -25,9 +25,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             let locationViewController = storyBoard.instantiateViewController(withIdentifier: "LocationViewControler") as! LocationViewController
             locationViewController.locationService = locationService
             window.rootViewController = locationViewController
-            
+            print(")))))))")
+            break
         default:
-            assertionFailure()
+            //assertionFailure()
+            print("Error")
+            break
         }
         window.makeKeyAndVisible()
         

@@ -15,6 +15,7 @@
 		00790F5222FA15180097076B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00790F5122FA15180097076B /* Assets.xcassets */; };
 		00790F5522FA15180097076B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00790F5322FA15180097076B /* LaunchScreen.storyboard */; };
 		00790F5D22FA16300097076B /* location-permissionjpg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 00790F5C22FA162F0097076B /* location-permissionjpg.jpg */; };
+		008C83BD23003F5F00E8DFD3 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008C83BC23003F5F00E8DFD3 /* Models.swift */; };
 		00A94E8B22FDFD76002EC139 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A94E8A22FDFD76002EC139 /* BaseView.swift */; };
 		00A94E8F22FE01D7002EC139 /* DetailsFoodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A94E8E22FE01D7002EC139 /* DetailsFoodView.swift */; };
 		00A94E9122FE0F0F002EC139 /* DetailsFoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A94E9022FE0F0F002EC139 /* DetailsFoodViewController.swift */; };
@@ -37,6 +38,7 @@
 		00790F5422FA15180097076B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		00790F5622FA15180097076B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00790F5C22FA162F0097076B /* location-permissionjpg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "location-permissionjpg.jpg"; sourceTree = "<group>"; };
+		008C83BC23003F5F00E8DFD3 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
 		00A94E8A22FDFD76002EC139 /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
 		00A94E8E22FE01D7002EC139 /* DetailsFoodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsFoodView.swift; sourceTree = "<group>"; };
 		00A94E9022FE0F0F002EC139 /* DetailsFoodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsFoodViewController.swift; sourceTree = "<group>"; };
@@ -128,6 +130,7 @@
 			children = (
 				00A94E9722FE2144002EC139 /* Views */,
 				00A94E9522FE190B002EC139 /* ResturantsTableViewController.swift */,
+				008C83BC23003F5F00E8DFD3 /* Models.swift */,
 			);
 			path = List;
 			sourceTree = "<group>";
@@ -323,6 +326,7 @@
 				002E40D022FF993700099493 /* NetworkService.swift in Sources */,
 				00A94E8B22FDFD76002EC139 /* BaseView.swift in Sources */,
 				00A94E9D22FE243C002EC139 /* LocationView.swift in Sources */,
+				008C83BD23003F5F00E8DFD3 /* Models.swift in Sources */,
 				00F6B82622FF021000279A82 /* LocationService.swift in Sources */,
 				00A94E8F22FE01D7002EC139 /* DetailsFoodView.swift in Sources */,
 				00A94E9622FE190B002EC139 /* ResturantsTableViewController.swift in Sources */,

@@ -7,11 +7,18 @@
 //
 
 import UIKit
+import Moya
+
+
+
 
 class LocationViewController: UIViewController {
 
     @IBOutlet weak var locationView : LocationView!
     var locationService : LocationService?
+    
+    let service = MoyaProvider<YelpService.BusinessProvider>()
+    let jsonDecoder = JSONDecoder()
     
     
     
@@ -24,7 +31,27 @@ class LocationViewController: UIViewController {
         //2019-08-10 23:56:31.809327+0200 ResturantIosApp[2155:63991] This app has attempted to access privacy-sensitive data without a usage description. The app's Info.plist must contain an NSLocationWhenInUseUsageDescription key with a string value explaining to the user how the app uses this data
         locationView.didTabAllow = {[weak self] in
             print("allow tabbed")
+            
             self?.locationService?.requestLocationAuthorization()
+            
+            //testing moya
+            self?.service.request(.search(lat: 37.786882, long: -122.399972), completion: { (result) in
+                
+                switch result {
+                case .success(let response):
+                    //print(try? JSONSerialization.jsonObject(with: response.data, options: []) )
+                    let root = try? self?.jsonDecoder.decode(Root.self, from: response.data)
+                    print(root)
+                    
+                    
+                    break
+                case .failure(let error):
+                    print("Error serializing data \(error)")
+                    break
+                }
+                
+            })
+            
         }
         
         locationService?.didChangeStatus = { [weak self] success in
